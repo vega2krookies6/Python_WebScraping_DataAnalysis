@@ -8,7 +8,7 @@ st.set_page_config(page_title='레이아웃', layout='wide')
 st.title('05. 레이아웃')
 
 # 실행 위치와 무관하게 동작하도록 __file__ 기준 절대경로 사용
-CSV_PATH = Path(__file__).resolve().parents[2] / 'data' / 'netflix_titles.csv'
+CSV_PATH = Path(__file__).resolve().parents[1] / 'data' / 'netflix_titles.csv'
 
 
 @st.cache_data

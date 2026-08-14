@@ -13,7 +13,7 @@ st.title('04. cache_data - 다시 읽지 않기')
 #   streamlit_basic/04_cache.py → parents[0]=streamlit_basic
 #                                 parents[1]=python_basic
 #                                 parents[2]=프로젝트 루트
-CSV_PATH = Path(__file__).resolve().parents[2] / 'data' / 'netflix_titles.csv'
+CSV_PATH = Path(__file__).resolve().parents[1] / 'data' / 'netflix_titles.csv'
 
 
 @st.cache_data

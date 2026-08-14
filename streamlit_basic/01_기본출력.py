@@ -4,7 +4,7 @@ import streamlit as st
 import pandas as pd
 
 # set_page_config 는 반드시 '가장 먼저' 호출해야 한다
-st.set_page_config(page_title='기본 출력', layout='wide')
+st.set_page_config(page_title='1기본', layout='wide')
 
 st.title('01. 기본 출력')
 st.header('헤더')
