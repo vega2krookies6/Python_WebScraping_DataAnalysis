@@ -13,7 +13,7 @@ plt.rcParams['axes.unicode_minus'] = False
 st.title('06. 차트')
 
 # 실행 위치와 무관하게 동작하도록 __file__ 기준 절대경로 사용
-CSV_PATH = Path(__file__).resolve().parents[2] / 'data' / 'netflix_titles.csv'
+CSV_PATH = Path(__file__).resolve().parents[1] / 'data' / 'netflix_titles.csv'
 
 
 @st.cache_data
